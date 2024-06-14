@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+body {
+    background-color: #fffafa;
+    /* Cor de fundo escura */
+    color: #000000;
+    /* Texto branco */
+}
+
+.brand {
+    font-family: "Oswald", sans-serif;
+    margin-top: 6%;
+}
+
+.logo {
+    display: flex;
+    gap: 1px;
+}
+
+.tituloDaPagina {
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 2%;
+}
+
+.subtituloDaPagina {
+    color: #555;
+    font-family: "Oswald", sans-serif;
+}
+
+.tituloDaPagina,
+.subtituloDaPagina {
+    display: flex;
+    justify-content: center;
+}
+
+.textoIntro {
+    margin-top: 2%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.titulo__tabela {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+table {
+    font-family: Georgia;
+    margin: 0 auto;
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid Black;
+    text-align: center;
+    padding: 8px;
+    background-color: White;
+}
+
+th:nth-child(odd) {
+    background-color: DimGray;
+    font-size: 25px;
+}
+
+th:nth-child(even) {
+    background-color: DimGray;
+    font-size: 25px;
+}
+
+.rodapé {
+    color: #FFF;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.item1 {
+    background-color: black;
+}
+
+.item2 {
+    background-color: #555;
+}
+
+.tituloFooter {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 2%;
+    margin-left: 5%;
+    font-family: "Oswald", sans-serif;
+    ;
+}
+
+.devs {
+    list-style: none;
+    margin-left: 5%;
+}
+
+.devsNome {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    margin-right: 5%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+/* Index */
+.subtitulo-home {
+    font-family: "Oswald", sans-serif;
+    margin-top: 5%;
+    font-size: 3rem;
+}
+
+.texto_introdutorio {
+    display: flex;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px black;
+    transition-duration: 0.3s;
+}
+
+.cardNews {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+
+}
+
+/*texto no carrossel*/
+.serieDescricao {
+    color: #ffffff;
+}

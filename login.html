@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/styleLogin.css">
+    <link rel="icon" href="assets/images/pipocaIcon.png">
+</head>
+
+<body>
+    <form action="">
+        <div class="titulo">
+            <img class="img-fluid" src="assets/images/pipocaIcon.png" width="100px">
+            <h1>Popcorn Member</h1>
+        </div>
+        <hr>
+        <div class="campo-input">
+            <label for="e-mail">E-mail</label>
+            <input type="e-mail" id="e-mail" />
+        </div>
+
+        <div class="campo-input">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+        </div>
+
+        <div class="show">
+            <input type="checkbox" id="show-password" onclick="togglePasswordVisibility()" />
+            <label for="show-password">Show password</label>
+        </div>
+
+        <div class="Remember">
+            <input type="checkbox" />
+            <p>Remember password?</p>
+        </div>
+
+        <button class="btn btn-danger"><a class="cadastroLogin" href="index.html">Entrar</a></button>
+
+        <div class="accout">
+            <p>Forgot <a href="">password?</a></p>
+            <p>Creat accout <a href="cadastro.html" target="_blank">here!</a></p>
+        </div>
+        <div class="loginIcons">
+            <a href="">
+                <img src="assets/images/googleIcon.svg">
+            </a>
+            <a href="">
+                <img src="assets/images/facebook.svg">
+            </a>
+        </div>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Desenvolvimento Web (Grupo 03)</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/Logo.png">
+</head>
+
+<body>
+    <header class="container-flex" style="background-color: #000000;">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#" style="color:#ff0000;font-size: 30px; margin-left: 10%;">
+                <div class="logo">
+                    <img class="brandImg" src="assets/images/Logo.png" style="width: 100px;">
+                    <p class="brand"><b style="color: #f8e917;">C</b>ine<b style="color: #f8e917;">C</b>lube</p>
+                </div>
+            </a>
+            <buttton style="margin-right:5%;" class="navbar-toggler" data-bs-toggle="collapse" type="button"
+                data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </buttton>
+            <div class="navbar-collapse collapse" id="navbarMenu" style="margin-left: 3%;">
+                <div class="navbar-nav nav-underline">
+                    <a href="index.html" class="nav-item nav-link" style="color: #ff0000; ">Início</a>
+                    <a href="filmes.html" class="nav-item nav-link" style="color: #ff0000; ">Filmes</a>
+                    <a href="series.html" class="nav-item nav-link" style="color: #ff0000;">Series</a>
+                    <a href="anime.html" class="nav-item nav-link" style="color: #ff0000;">Animes</a>
+                </div>
+            </div>
+            <form style="display: flex; justify-content: center; margin-right: 5%;" method="GET"
+                action="https://www.google.com/search" class="d-flex" style=" margin-right: 10% ">
+                <input type="text" name="q" class="form-control me-2" placeholder="Pesquisar..." />
+                <button type="submit" class="btn btn-warning">Buscar</button>
+            </form>
+            <form style="display: flex; justify-content: center; margin-right: 5%;" class="d-flex"
+                style="margin-right: 10%;">
+                <a href="login.html" style="margin-left: 10px;" target="_blank">
+                    <img src="assets/images/person-circle.svg" style="filter: brightness(0) invert(1); width:2rem;">
+                </a>
+            </form>
+    </header>
+    <section class="container" style="margin-top: 5%;">
+        </nav>
+        <h1 class="tituloDaPagina">Essas são para ver do conforto de casa</h1>
+        <h6 class="subtituloDaPagina">As séries mais aclamadas de 2023, e o melhor, para assistir sem sair do conforto
+            de casa.
+            Então pegue o seu controle remoto e a sua pipoca e se aconchegue no sofá.
+        </h6>
+        <hr>
+
+        <p class="textoIntro">As séries são uma forma de entretenimento que vem ganhando cada vez mais espaço na vida
+            das pessoas. Elas são histórias contadas em capítulos, geralmente com duração de cerca de 30 a 60 minutos,
+            que são exibidos em sequência.
+
+            As séries podem ser de vários gêneros, como drama, comédia, ação, suspense e ficção científica. Elas podem
+            ser baseadas em livros, histórias reais ou criadas a partir da imaginação dos roteiristas.
+
+            O que torna as séries tão atraentes é a possibilidade de acompanhar a história e os personagens por um longo
+            período de tempo. Isso permite que o espectador se envolva com os personagens e se importe com o que
+            acontece com eles.
+
+            Além disso, as séries geralmente são muito bem produzidas, com roteiros bem escritos, atuações convincentes
+            e efeitos especiais de última geração. Isso ajuda a criar uma experiência imersiva para o espectador, que se
+            sente transportado para o mundo da série.
+
+            As séries também são uma ótima forma de conhecer novas culturas e perspectivas. Elas podem nos mostrar
+            diferentes maneiras de viver, pensar e sentir. Isso pode nos ajudar a expandir nossos horizontes e a
+            entender melhor o mundo ao nosso redor.
+
+            Em resumo, as séries são uma forma de entretenimento envolvente, imersiva e enriquecedora. Elas nos permitem
+            acompanhar histórias e personagens por um longo período de tempo, conhecer novas culturas e perspectivas e
+            nos transportar para mundos diferentes. Se liga no nosso <strong>TOP 5 Séries mais assistidas de
+                2023</strong> </p>
+        </p>
+
+        <hr>
+    </section>
+
+    <main class="container" style="margin-top:5%;">
+        <h2 class="titulo__tabela">Top 5 Séries mais assistidas de 2023</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/Suits.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5> SUITS</h5>
+                        <p class="serieDescricao">Mike Ross é um garoto que abandonou a faculdade de direito mas,
+                            brilhante como é,
+                            consegue uma entrevista com o respeitado Harvey Specter, um dos melhores advogados de
+                            Manhattan.
+                            Quando percebe o talento nato e a memória fotográfica do garoto, Harvey o contrata e,
+                            juntos,
+                            eles formam uma dupla imbatível.</p>
+                        <a href="https://www.adorocinema.com/series/serie-8644/" target="_blank">
+                            <button type="button" class="btn-warning">Ler criticas</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/bluey.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bluey</h5>
+                        <p>Bluey é uma série de televisão infantil australiana criada por Joe Brumm. A animação é
+                            inspirada na cidade australiana de Brisbane e segue a adorável, curiosa e inesgotável
+                            cachorrinha Bluey, uma filhote antropomórfica de seis anos de idade, da raça
+                            Boiadeiro-australiano.</p>
+                        <a href="https://www.adorocinema.com/series/serie-28035/" target="_blank">
+                            <button type="button" class="btn-warning">Ler criticas</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/ncis.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>NCIS - Investigação Naval</h5>
+                        <p>O agente especial Leroy Jethro Gibbs é o líder de um time de agentes especiais
+                            do NCIS (Serviço de Investigação Naval Criminal). Ex-marinheiro, ele é um investigador durão
+                            e
+                            um detetive especializado em interrogatório, que confia tanto nos seus instintos quanto nas
+                            evidências.</p>
+                        <a href="https://www.adorocinema.com/series/serie-133/" target="_blank">
+                            <button type="button" class="btn-warning">Ler criticas</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/greys.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Grey's Anatomy</h5>
+                        <p class="serieDescricao">Em Grey's Anatomy, os médicos do Grey Sloan Memorial Hospital/Seattle
+                            Grace Hospital
+                            lidam diariamente com casos de vida ou morte. É um no outro que eles encontram apoio,
+                            conforto, amizade e até mesmo amor. Juntos, eles se esforçam para conciliar os dramas
+                            profissionais com os pessoais, descobrindo que ambos podem e vão se misturar no meio do
+                            caminho.</p>
+                        <a href="https://www.adorocinema.com/series/serie-133/" target="_blank">
+                            <button type="button" class="btnbtn-warning">Ler criticas</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/cocomelon.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color:#000000;">CoComelon</h5>
+                        <p style="color:#000000;">Diretamente do YouTube para a telinha, Cocomelon é uma série educativa
+                            que
+                            aborda diversos
+                            temas do universo infantil por meio de canções. Em cada episódio, o bebê J.J. vive novas
+                            aventuras ao lado dos pais e dos amigos, descobrindo as letras, os números, as animais, as
+                            frutas, as partes do corpo humano, os cinco sentidos, os esportes e muito mais.</p>
+                        <a href="https://www.rottentomatoes.com/m/fast_x" target="_blank">
+                            <button type="button" class="carousselButton">Ler criticas</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr>
+
+    </main>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #000000">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style=" background-color: darkred">
+            <!-- Left -->
+            <a href="" class=" text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+                <i class="fab fa-github"></i>
+            </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold">CineClube</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color:  #aaaa; height: 2px" />
+                        <p>
+                            Cineclube, onde a diversão e a informação se encontram! Navegue por nosso site intuitivo e
+                            mergulhe em um universo de entretenimento sem limites.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Topicos</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color:  #aaaa; height: 2px" />
+                        <p>
+                            <a href="./index.html" class="text-white">Inicio</a>
+                        </p>
+                        <p>
+                            <a href="./filmes.html" class="text-white">Filmes</a>
+                        </p>
+                        <p>
+                            <a href="./series.html" class="text-white">Series</a>
+                        </p>
+                        <p>
+                            <a href="./anime.html" class="text-white">Animes</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Artigos</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #aaaa; height: 2px" />
+                        <p>
+                            <a href="./series.html" class="text-white">Essas são para ver do conforto de casa</a>
+                        </p>
+                        <p>
+                            <a href="./filmes.html" class="text-white">Um Ano de Sucessos nas Telonas</a>
+                        </p>
+                        <p>
+                            <a href="./anime.html" class="text-white">Um Mundo de Entretenimento Visual</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold">Desenvolvedores</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #aaaa; height: 2px" />
+                        <ul>
+                            <li class="devsName">Fabricio Pontes
+                                <div class="icon-link">
+                                    <a href="https://www.linkedin.com/in/fabricio-pontes-tech" target="_blank">
+                                        <img src="assets/images/linkedin.svg" style="filter: brightness(0) invert(1);">
+                                    </a>
+                                    <a href="https://github.com/Fabponts" target="_blank">
+                                        <img src="assets/images/github.svg" style="filter: brightness(0) invert(1);">
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="devsName">Milena Souza
+                                <div class="icon-link">
+                                    <a href="https://www.linkedin.com/in/milena-souza-3ba25a106" target="_blank">
+                                        <img src="assets/images/linkedin.svg" style="filter: brightness(0) invert(1);">
+                                    </a>
+                                    <a href="https://github.com/SouzaaMilena" target="_blank">
+                                        <img src="assets/images/github.svg" style="filter: brightness(0) invert(1);">
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="devsName">Jean Oliveira
+                                <div class="icon-link">
+                                    <a href="https://www.linkedin.com/in/jeanvictorolivei/" target="_blank">
+                                        <img src="assets/images/linkedin.svg" style="filter: brightness(0) invert(1);">
+                                    </a>
+                                    <a href="https://github.com/JeanVictr" target="_blank">
+                                        <img src="assets/images/github.svg" style="filter: brightness(0) invert(1);">
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="devsName">André Marcio
+                                <div class="icon-link">
+                                    <a href="https://www.linkedin.com/in/andré-márcio-de-andrade-lomba-39a305153/"
+                                        target="_blank">
+                                        <img src="assets/images/linkedin.svg" style="filter: brightness(0) invert(1);">
+                                    </a>
+                                    <a href="https://github.com/AndreMALomba" target="_blank">
+                                        <img src="assets/images/github.svg" style="filter: brightness(0) invert(1);">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/teste.js"></script>
+</body>
+
+</html>
